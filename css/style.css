@@ -651,6 +651,85 @@ color: var(--primary-text-color);
 
 
 /* ---------------------------FOOTER------------------------------------ */
+.footer-subscription {
+    margin-left: 93px;
+}
+.strong {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    display: block;
+    color: var(--title--text-color);
+    margin-bottom: 20px;
+}
+b, strong {
+    font-weight: bolder;
+}
+.subscription {
+    display: flex;
+}
+.subscription-input {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    margin-right: 14px;
+    color: var(--title--text-color);
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.order-btn {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    background: var(--accent-color);
+   
+}
+.subscription-icon {
+    margin-left: 10px;
+}
+.subscription-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 27px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+
 .social-list {
     display: flex;
     align-items: center;
@@ -744,6 +823,7 @@ color: var(--primary-text-color);
   }
   .foot-flex {
     display: flex;
+    align-items: baseline;
   }
   .social-title {
     margin-bottom: 20px;
@@ -798,6 +878,7 @@ color: var(--primary-text-color);
 
   .form {
     padding: 40px;
+   
 }
 .modal-title {
     display: block;
@@ -807,9 +888,10 @@ color: var(--primary-text-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color));
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 12px;
 }
+
 
 .form-field {
     position: relative;
@@ -817,10 +899,11 @@ color: var(--primary-text-color);
     flex-direction: column;
     margin-bottom: 10px;
 }
+
 .form-label {
     font-family: Roboto;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.01em;
@@ -828,13 +911,14 @@ letter-spacing: 0.01em;
     margin-bottom: 4px;
     line-height: 1.17;
 }
+
 .form-icon {
     position: absolute;
     top: 31px;
     left: 12px;
     pointer-events: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: var(--second-text-color));
+    fill: var(--second-text-color);
 }
 .form-input {
     height: 40px;
@@ -844,6 +928,7 @@ letter-spacing: 0.01em;
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 button, input, optgroup, select, textarea {
     font-family: inherit;
     font-size: 100%;
@@ -914,7 +999,7 @@ a {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    margin-top: 30px;
+   
 }
 button, [type='button'], [type='reset'], [type='submit'] {
     -webkit-appearance: button;
