@@ -36,7 +36,7 @@ img{
 }
 .page {
     background-color: #ffffff;
-    color: var(--primary-text-color);
+
 }
 .page-list-item {
     color: var(--primary-text-color);
@@ -224,7 +224,6 @@ text-transform: uppercase;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    background-color: #f5f4fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,6 +239,8 @@ text-transform: uppercase;
     margin-bottom: 10px;
 }
 .text-title{
+    font-family: Roboto, sans-serif;
+    color: var(--second-text-color);
     margin: 0;
     width: 270px;
     
@@ -448,7 +449,13 @@ letter-spacing: 0.06em;
 }
 
 .masters-title{
-    margin-top: auto;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16667;
+    letter-spacing: .03em;
+    text-align: center;
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
@@ -514,12 +521,7 @@ letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 /* ---------------Клиенты------------------- */
-.footer-adress {
-    display: flex;
-    flex-direction: column;
-    width: 231px;
-    margin-right: 70px;
-}
+
 .clients-section {
     background-color: var(--title--text-color);
 }
@@ -764,7 +766,13 @@ color: var(--primary-text-color);
   .contacts-title {
     font-style: none;
   }
-  
+  /*               -----------    footer        --------       */
+  .footer-adress {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    margin-right: 70px;
+}
   .footer-social {
       margin: auto;
     margin-top: 12px;
