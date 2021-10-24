@@ -227,6 +227,7 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f5f4fa;
 }
 .mobile-item{
 
@@ -235,8 +236,14 @@ text-transform: uppercase;
     
 }
 .title {
+font family: Roboto;
+font style: Bold;
+font size: 14px;
+line height: 16px;
+align: left;
     display: flex;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .text-title{
     font-family: Roboto, sans-serif;
@@ -457,6 +464,7 @@ letter-spacing: 0.06em;
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
+    
 }
 
 .masters{
@@ -466,6 +474,7 @@ letter-spacing: 0.06em;
     padding-right: 0px;
     padding-bottom: 94px;
     padding-left: 0px;
+    background-color: #F5F4FA;
 }
 
 .masters-list {
@@ -500,6 +509,8 @@ line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 30px;
+
 }
 .masrers-item-title {
     font-family: Roboto, sans-serif;
@@ -509,6 +520,8 @@ line-height: 1.14;
 text-align: center;
 letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
+
 }
 
 .masters-item-text {
@@ -667,7 +680,7 @@ color: var(--primary-text-color);
     background: var(--accent-color);
     width: 200px;
     height: 50px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -891,7 +904,14 @@ border-color: var(--accent-color);
     fill: var(--accent-color);
     
 }
-
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+}
 .form-icon {
 
     position: absolute;
@@ -1009,7 +1029,7 @@ border: none;
     background: var(--accent-color);
     width: 200px;
     height: 50px;
-    box-shadow: 0px 4px 4px rgb(0 0 0 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
     cursor: pointer;
